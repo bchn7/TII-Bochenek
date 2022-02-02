@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(96,96,97,1) 63%, rgba(209,211,212,1) 100%);}
+
+.container { 
+    margin: 0 auto;
+    display: table;
+    background-color: gray;
+    min-height: 100%;
+    width: 75%;
+    position: fixed;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    margin: 0 auto;
+    display: table;
+    background-color: darkgray;
+    min-height: 20%;
+    width: 75%;
+    position: fixed;
+    vertical-align: middle;
+    display: flex;
+    justify-content: left;
+}
+
+.logo {
+    margin: 0 auto;
+    display: table;
+    background-color: black;
+    min-height: 20%;
+    width: 15%;
+    position: block;
+    vertical-align: middle;
+}
+
+.navbar {
+    margin: 0 auto;
+    display: table;
+    background-color: white;
+    min-height: 20%;
+    width: 85%;
+    position: block;
+    vertical-align: middle;
+}
+
+.main {
+    margin: 0 auto;
+    display: table;
+    background-color: blanchedalmond;
+    min-height: 20%;
+    width: 85%;
+    position: block;
+    vertical-align: middle;
+}
+
+.footer {
+    margin: 0 auto;
+    display: table;
+    
+    bottom: 0px;
+    background-color: darkgray;
+    max-height: 10%;
+    min-height: 10%;
+    width: 75%;
+    position: fixed;
+    vertical-align: middle;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.links {
+    margin: 0 auto;
+    display: table;
+    background-color: yellow;
+    min-height: 10%;
+
+    width: 20%;
+    position: block;
+    
+}
+
+.info {
+    margin: 0 auto;
+    display: table;
+    background-color: green;
+    min-height: 10%;    
+
+    width: 80%;
+    position: block;
+    
+}
