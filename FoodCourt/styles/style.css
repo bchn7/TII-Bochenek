@@ -1,4 +1,5 @@
 html, body {
+    color:white;
     margin: 0;
     position: fixed;
     display: flex;
@@ -11,7 +12,7 @@ html, body {
 .container { 
     margin: 0 auto;
     display: table;
-    background-color: gray;
+    background-color: #333;
     min-height: 100%;
     width: 75%;
     position: fixed;
@@ -24,7 +25,7 @@ html, body {
     margin: 0 auto;
     display: table;
     background-color: darkgray;
-    min-height: 20%;
+    max-height: 50%;
     width: 75%;
     position: fixed;
     vertical-align: middle;
@@ -36,17 +37,19 @@ html, body {
     margin: 0 auto;
     display: table;
     background-color: black;
-    min-height: 20%;
+    color: white;
+    max-height: 50%;
     width: 15%;
     position: block;
     vertical-align: middle;
+    text-align: center;
 }
 
 .navbar {
     margin: 0 auto;
     display: table;
     background-color: white;
-    min-height: 20%;
+    max-height: 50%;
     width: 85%;
     position: block;
     vertical-align: middle;
@@ -54,18 +57,21 @@ html, body {
 
 .main {
     margin: 0 auto;
+    margin-top: 10%;
     display: table;
-    background-color: blanchedalmond;
-    min-height: 20%;
+    background-color: #333;
+    max-height: 70%;
     width: 85%;
     position: block;
     vertical-align: middle;
+    align-items: middle;
+    text-align: center;
 }
 
 .footer {
     margin: 0 auto;
     display: table;
-    
+    color:black;
     bottom: 0px;
     background-color: darkgray;
     max-height: 10%;
@@ -81,9 +87,9 @@ html, body {
 .links {
     margin: 0 auto;
     display: table;
-    background-color: yellow;
+    background-color: #3322;
     min-height: 10%;
-
+    text-align: center;
     width: 20%;
     position: block;
     
@@ -92,10 +98,34 @@ html, body {
 .info {
     margin: 0 auto;
     display: table;
-    background-color: green;
+    background-color: #3322;
     min-height: 10%;    
-
+    text-align: center;
     width: 80%;
     position: block;
     
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
